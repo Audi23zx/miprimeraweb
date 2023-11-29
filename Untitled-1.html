@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi primera Web</title>
+  <link rel="stylesheet" href="Styles.css"/>
+  <script src="https://kit.fontawesome.com/c9b87a4bee.js"></script>
+  <script src="script.js"></script>
+
+</head>
+<body>
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+     <a href="Easy Access.html">Home</a>
+     <a href="Servicios.html">Services</a>
+     <a href="Contact.html">Contact</a>
+     <a href="Login.html">Login</a>
+   </div>
+ </div>
+ <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  <main id="seccion-principal">
+    <section class="section-1">
+      <div class="acerca de">
+        <h2>Acerca de mi</h2>
+        <p>Bienvenido a mi Web</p>
+        <p class="parrafo1">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere itaque distinctio dolorum illo.<br>
+         Inventore voluptates vitae cupiditate ullam, harum pariatur, minus fugit laborum blanditiis <br>
+         voluptatem asperiores est quidem sed tempore.
+        </p>
+      </div>
+      <div class="acerca-imagen">
+         <img src="Astronauta.jpg" alt="Imagen Portada">
+      </div>
+      <section class="section-2">
+        <img src="IMagen de carrusel.jpg" alt="Imagen carrusel" height="500px" width="1500px">
+      </section>
+    </section>
+    <div class="flex-container">
+      <div class="flex-item"><img src="https://www.ngenespanol.com/wp-content/uploads/2023/07/que-le-pasa-al-cuerpo-humano-en-el-espacio-exterior-sucede.jpg" 
+      height="250px" width="350px"><br><h2>Astronautas</h2><p class="Parrafo1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore tempora culpa asperiores veniam quia!
+      Possimus eligendi cum facilis eius quia totam itaque necessitatibus, vitae aliquam sapiente est magnam! Vitae, sequi?</p></div>
+      <div class="flex-item"><img src="https://www.ngenespanol.com/wp-content/uploads/2023/07/que-le-pasa-al-cuerpo-humano-en-el-espacio-exterior-sucede.jpg" 
+        height="250px" width="350px"><br><h2>Astronautas</h2><p class="Parrafo1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore tempora culpa asperiores veniam quia!
+        Possimus eligendi cum facilis eius quia totam itaque necessitatibus, vitae aliquam sapiente est magnam! Vitae, sequi?</p></div>
+       <div class="flex-item"><img src="https://www.ngenespanol.com/wp-content/uploads/2023/07/que-le-pasa-al-cuerpo-humano-en-el-espacio-exterior-sucede.jpg" 
+        height="250px" width="350px"><br><h2>Astronautas</h2><p class="Parrafo1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore tempora culpa asperiores veniam quia!
+        Possimus eligendi cum facilis eius quia totam itaque necessitatibus, vitae aliquam sapiente est magnam! Vitae, sequi?</p></div>
+    </div>
+  </main>
+  <footer>
+    <footer class="form-header">
+      <h1>Contacto</h1>
+      <p><em>¡Esperamos tu consulta!</em></p>
+
+      <form action="" method="get" class="formulario" id="form">
+        <div class="form-row">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" />
+        </div>
+        <div class="form-row">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="pepe@gmail.com"
+              required
+            />
+        </div>
+        <div class="form-row">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+        </div>
+        <div class="form-row">
+            <button type="submit" id="submit">Enviar</button>
+        </div>
+        <p class="alertas" id="alertas"></p>  
+      </form>
+    </footer>
+    <h3>Gracias por visitarnos </h3>
+    <ul class="footer">
+      <li><a href="#Instagram">Instagram</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+  </ul>
+   </footer>  
+</body>
+</html>
